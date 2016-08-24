@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <script src="jquery/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="jquery/jquery.move.js" type="text/javascript"></script>
+    <style type="text/css">
+        body{
+            background: #ccc;
+        }
+        .dialog_body{
+            width: 400px;
+            height: 300px;
+            border: 1px solid #eee;
+            background: #fff;
+        }
+        .dialog_head{
+            width: 400px;
+            height: 40px;
+            background: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dialog_body">
+        <div class="dialog_head"></div>
+        <div class="dialog_content"></div>
+    </div>
+</body>
+<script type="text/javascript">
+    $(".dialog_body").move_a_move($(".dialog_head"));
+</script>
+
+</html>
