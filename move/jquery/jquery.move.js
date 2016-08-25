@@ -15,7 +15,7 @@
     		clicked = false;
     	});
 
-    	$move_head.mousedown(function(e){
+    	$moveHead.mousedown(function(e){
     		clicked = true;
     		var offset = $(this).offset();
             	divLeft = parseInt(offset.left,10);
